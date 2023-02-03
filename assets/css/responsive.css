@@ -1,0 +1,87 @@
+/* tablet & pc low resolution */
+@media (min-width: 1024px) {
+    #content {
+        margin: 0 16px;
+    }
+}
+
+@media (min-width: 724px) and (max-width:1023px) {
+    #content {
+        margin: 0 16px;
+    }
+}
+
+
+/* mobile */
+@media (max-width: 723px) {
+    #content {
+        margin: 0 24px;
+    }
+
+    #header {
+        box-shadow: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #header #nav-mobile {
+        display: block;
+        padding: 8px;
+    }
+
+    #header .logo-home {
+        display: inline-block;
+        padding: 8px;
+    }
+
+    #header .menu-icon {
+        /* display: block; */
+        padding: 8px;
+    }
+
+    .menu-mini #nav-mini {
+        position: absolute;
+        width: 100%;
+        display: none;
+        background-color: #fff;
+        list-style-type: none;
+        float: right;
+        box-shadow:0 4px 10px 0 #ccc;
+    }
+
+    #nav-mobile a {
+        color: #000;
+        text-decoration: none;
+        line-height: 22.5px;
+        letter-spacing: 4px;
+        font-weight: 300;
+    }
+    .menu-icon {
+        float: right;
+        width: 36px;
+        height:auto;
+        text-align: center;
+    }
+
+    #nav-mini li{
+        display: block;
+        line-height: 32px;
+        padding: 0 16px;
+    }
+
+    #nav-mini li a{
+        display: block;
+        text-decoration: none;
+        color:#000;
+    }
+
+    #nav-mini li:hover {
+        background-color: #ccc;
+    }
+
+    #slider .architect {
+        display: none;
+    }
+}

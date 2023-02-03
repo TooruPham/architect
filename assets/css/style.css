@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+/* 
+1 . Vi tri
+2. Kich thuoc
+3. Mau sac
+4. Kieu dang ( kieu chu , hinh dang , khoang cach) 
+ */
+
+#main {
+}
+
+/* Header */
+#header {
+    position: fixed;
+    background-color: #fff;
+    height: 54px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow:0 4px 10px 0 #ccc;
+}
+
+#nav-mobile {
+    display: none;
+}
+
+#nav-mini {
+    display: none;
+}
+
+
+#nav {
+    text-align: right;
+    line-height: 22.5px;
+    padding: 8px 16px;
+}
+
+#nav li{
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#nav li:first-child{
+    float: left;
+}
+
+#nav li a{
+    color: #000;
+    text-decoration: none;
+    line-height: 22.5px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+#nav li:hover{
+    cursor: pointer;
+    background-color: #ccc
+}
+
+/* end Header */
+
+/* Slider */
+#slider {
+    position: relative;
+    margin-top: 54px;
+    margin-bottom: 16px;
+    padding-top: 50%;
+    background: url(../img/slider.jpg) top center / cover no-repeat;
+    margin: auto;
+    max-width: 1400px;
+    max-height: 800px;
+}
+
+#slider .text-content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#slider h1{
+    display: inline-block;
+    color: #fff;
+    line-height: 54px;
+    letter-spacing: 4px;
+}
+#slider .logo {
+    background-color: #000;
+    font-size: 30px;;
+    opacity: 0.75;
+    padding: 8px 16px;
+}
+#slider .architect{
+    font-weight: 400; 
+}
+
+/* End Slider */
+
+#content {
+
+}
+
+/* Projects */
+#projects {
+    
+}
+
+#content .content-section{
+    width: 1300px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-section .heading-section {
+    padding: 32px 16px;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.content-section .heading-title{
+    font-size: 24px;
+    padding: 16px 0;
+    margin: 10px 0;
+    font-weight: 400;
+    font-family: 'Segoe UI', Arial , sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-section .project-list{
+    overflow: hidden;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.content-section .project-item{
+   position: relative;
+   margin-bottom: 16px;
+   padding: 0 8px;
+}
+
+.content-section .project-img{
+    width: 100%;
+}
+
+.content-section .project-title {
+    position: absolute;
+    margin-left: 8px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    top: 0;
+    left: 0;
+}
+
+/* End project */
+
+
+/* About */
+#about {
+
+}
+
+.content-section .about-desc {
+    margin: 15px 0;
+    text-align: justify;
+}
+.content-section .member-list{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.content-section .member-item{
+    padding: 0 8px;
+}
+.content-section .member-avt{
+    width: 100%;
+}
+.content-section .member-name{
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight:400;
+    font-family: 'Segoe UI', Arial , sans-serif;
+}
+.content-section .member-position{
+    margin: 15px 0;
+    font-size: 15px;
+    opacity: 0.6;
+    font-family: Verdana , sans-serif;
+}
+.content-section .member-desc{
+    margin: 15px 0;
+    font-size: 15px;
+    font-family: Verdana , sans-serif;
+}
+.content-section .btn-member-contact{
+    display: inline-block;
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    cursor: pointer;
+}
+.content-section .btn-member-contact:hover{
+    background-color: #ccc
+}
+
+/* End About */
+
+/* Contac */
+#contact {
+
+}
+
+.contact-section {
+    padding: 32px 0;
+}
+
+.content-section .contact-title{
+    font-size: 15px;
+    margin: 10px 0;
+    font-family: Verdana, Arial , sans-serif;
+}
+
+.content-section .contact-form{
+    display: block;
+}
+
+.content-section .form-control{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-weight: 400;
+    color: #000;
+
+}
+
+.content-section .btn-send-message{ 
+    text-align: start;
+    margin: 8px 0;
+    padding: 8px 16px;
+    border:none;
+    background-color: #000;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    cursor: pointer;
+}
+
+.content-section .btn-send-message:hover{
+    background-color: #ccc;
+    color: #000;
+}
+/* end Contact */
+
+/* location */
+.location-section {
+    display: block;
+}
+
+.content-section > img{
+    width: 1436px;
+    max-width: 100%;
+}
+/* end location */
+
+/* footer */
+#footer {
+    width: 100%;
+}
+
+.powered-by {
+    background-color: #000;
+    padding: 16px 0;
+    height: 84px;
+    color: #fff;
+    text-align: center;
+}
+.powered-by p{
+    margin:15px 0;
+}
+
+.powered-by a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* end footer */
+
