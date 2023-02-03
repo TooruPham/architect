@@ -151,7 +151,6 @@ html {
    margin-bottom: 16px;
    padding: 0 8px;
    cursor: pointer;
-   overflow: hidden;
 }
 
 .content-section .project-img{
@@ -169,9 +168,6 @@ html {
     left: 0;
 }
 
-.project-item:hover > .project-img{
-    transform: scale(1.2); 
-}
 /* End project */
 
 
@@ -195,6 +191,7 @@ html {
 .content-section .member-avt{
     width: 100%;
 }
+
 .content-section .member-name{
     margin: 10px 0;
     font-size: 24px;
